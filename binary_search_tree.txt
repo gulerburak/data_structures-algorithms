@@ -1,0 +1,23 @@
+Binary Search Tree of [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+    Root is 7
+    5 is less than 7, goes to left of 7
+    1 less than both 7 and 5, goes to left of 5
+    8 is bigger than 7, goes to right of 7
+    3 is less than 7 and 5, bigger than 1, goes to right of 1
+    6 is less than 7, bigger than 5, goes to right of 5
+    0 is less than 7, 5 and 1, goes to left of 1
+    9 is bigger than 7 and 8, goes to right of 8
+    4 is less than 7 and 5, bigger than 1 and 3, goes to right of 3
+    2 is less than 7 and 5, bigger than 1 and lesser than 3, goes to left of 3
+
+    Tree:
+                                7				
+                            /		\			
+                        5				8		
+                    /		\				\	
+                1				6				9
+            /		\							
+        0				3						
+                    /		\					
+                2				4				
